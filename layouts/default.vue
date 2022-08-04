@@ -2,10 +2,13 @@
   <div>
     <b-navbar toggleable="md">
       <b-container class="d-flex align-items-center">
-        <b-navbar-brand tag="h2" class="mb-4 mt-0 text-center" style="color: RGB(97,176,140)">
+        <b-navbar-brand
+          tag="h2"
+          class="mb-4 mt-0 text-center"
+          style="color: RGB(97, 176, 140)"
+        >
           Quiero Compu
         </b-navbar-brand>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">

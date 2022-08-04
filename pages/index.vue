@@ -49,6 +49,7 @@
             <div class="row">
               <div class="col text-center">
                 <b-button
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link"
                   class="rounded-lg ml-lg-auto text-white"
                   variant="primary"
                   size="lg"
