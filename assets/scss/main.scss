@@ -121,6 +121,11 @@ $theme-colors: (
   padding-top: 100px !important;
 }
 
+.bg-hero-override{
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
 .bg-section-product {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -130,6 +135,10 @@ $theme-colors: (
     rgba(249, 249, 249, 1) 47%,
     rgba(219, 240, 235, 1) 81%
   );
+}
+
+.main-title{
+  font-size: 1rem;
 }
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

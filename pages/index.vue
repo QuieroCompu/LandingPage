@@ -4,7 +4,7 @@
       <b-container class="pt-5">
         <b-row>
           <b-col cols="12" lg="6" md="6" sm="12">
-            <h1>
+            <h1 class="main-title">
               Estamos aqui <br />
               Para asesorar <br />
               Tu compra
@@ -27,7 +27,7 @@
 
             <p class="hero-description">
               Ofrecemos un asesoramiento personalizado para la correcta
-              selección, compra, instalación y entrega de laptops.
+              selección, compra, instalación y entrega de laptops en Uruguay 🇺🇾.
             </p>
           </b-col>
           <br class="d-none d-sm-block" />
@@ -38,10 +38,9 @@
               :src="require(`~/assets/img/Team_Image.jpeg`)"
             ></b-img>
           </b-col>
-          <b-col cols="12" lg="12" md="12" sm="12" class="d-flex flex-column">
+          <!-- <b-col cols="12" lg="12" md="12" sm="12" class="d-flex flex-column">
             <h3 class="mx-auto mt-5">
-              Coordina una videollamada hoy con nosotros completando el
-              siguiente formulario
+              Coordina una videollamada hoy con nosotros completando el <a href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link">siguiente formulario</a>
             </h3>
           </b-col>
 
@@ -53,11 +52,11 @@
                   class="rounded-lg ml-lg-auto text-white"
                   variant="primary"
                   size="lg"
-                  >Ir al formulario</b-button
+                  >Haga click aquí para ir al formulario</b-button
                 >
               </div>
             </div>
-          </div>
+          </div> -->
         </b-row>
       </b-container>
     </section>
@@ -310,6 +309,36 @@
         </b-row>
       </b-container>
     </section>
+
+
+      <section class="pb-5 bg-hero bg-hero-override">
+      <b-container class="">
+        <b-row>
+          <br class="d-none d-sm-block" />
+
+          <b-col cols="12" lg="12" md="12" sm="12" class="d-flex flex-column">
+            <h3 class="mx-auto mt-5">
+              Coordina una videollamada hoy con nosotros completando el <a href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link">siguiente formulario</a>
+            </h3>
+          </b-col>
+
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col text-center">
+                <b-button
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link"
+                  class="rounded-lg ml-lg-auto text-white"
+                  variant="primary"
+                  size="lg"
+                  >Haga click aquí para ir al formulario</b-button
+                >
+              </div>
+            </div>
+          </div>
+        </b-row>
+      </b-container>
+    </section>
+
   </div>
 </template>
 
