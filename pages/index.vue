@@ -5,12 +5,12 @@
         <b-row>
           <b-col cols="12" lg="6" md="6" sm="12">
             <h1 class="main-title">
-              Estamos aqui <br />
-              Para asesorar <br />
-              Tu compra
+              Estamos aquí
+              para asesorar
+              tu compra
             </h1>
             <svg
-              class="my-5"
+              class="my-5 icono-custom"
               width="487"
               height="34"
               viewBox="0 0 487 34"
@@ -19,7 +19,7 @@
             >
               <path
                 d="M4 30C73.6307 10.3798 266.914 -17.0885 483 30"
-                stroke="#54BD95"
+                stroke="#54bd95"
                 stroke-width="8"
                 stroke-linecap="round"
               />
@@ -65,12 +65,12 @@
       <b-container>
         <b-row>
           <b-col cols="12" lg="6" md="6" sm="12">
-            <h2>Como es nuestro proceso?</h2>
+            <h2>¿Cómo es nuestro proceso?</h2>
             <div class="my-5">
               <p class="text-muted">
                 Comenzamos un formulario enfocado que nos ayuda a acelerar la
                 búsqueda de laptops para darte una recomendación más rápido.
-                Tomamos en cuenta tiendas Uruguayas de tecnología como
+                Tomamos en cuenta tiendas uruguayas de tecnología como
                 ThotComputación, Banifox, MercadoLibre entre otros además de la
                 posibilidad de importar en caso de que sea posible.
               </p>
@@ -152,7 +152,7 @@
                 <div>
                   <h5>Formulario</h5>
                   <p class="text-muted">
-                    Rellenas el formulario con las características que buscas en
+                    Rellenás el formulario con las características que buscas en
                     una laptop
                   </p>
                 </div>
@@ -226,7 +226,7 @@
                   </svg>
                 </div>
                 <div>
-                  <h5>Analisis</h5>
+                  <h5>Análisis</h5>
                   <p class="text-muted">
                     Una vez recibimos tu formulario, analizamos las opciones de
                     laptops en Uruguay y definimos una selección que
@@ -318,7 +318,7 @@
 
           <b-col cols="12" lg="12" md="12" sm="12" class="d-flex flex-column">
             <h3 class="mx-auto mt-5">
-              Coordina una videollamada hoy con nosotros completando el <a href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link">siguiente formulario</a>
+              Coordiná una videollamada hoy con nosotros completando el <a href="https://docs.google.com/forms/d/e/1FAIpQLScgl21sgAbqu-6NLEnjGH_BgAEE0Suk-mPkqbrRj82OXAf8-Q/viewform?usp=sf_link">siguiente formulario</a>
             </h3>
           </b-col>
 
@@ -348,3 +348,11 @@ export default {
   components: {},
 }
 </script>
+
+<style scoped>
+@media only screen and (max-width: 520px) {
+ .icono-custom{
+  width:100%;
+ }
+}
+</style>

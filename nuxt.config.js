@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Saas Landing Page',
+    title: 'Quiero Compu',
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,7 +14,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
+          'Quiero Compu ofrece un servicio de recomendación y asesoramiento en la compra de laptops en Uruguay.',
       },
       {
         hid: 'og:image',
@@ -24,7 +24,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Saas Landing Page',
+        content: 'Quiero Compu',
       },
       {
         name: 'og:site_name',
@@ -37,7 +37,7 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content:
-          'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
+          'Quiero Compu ofrece un servicio de recomendación y asesoramiento en la compra de laptops en Uruguay.',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -66,16 +66,16 @@ export default {
       'nuxt-social-meta',
       {
         url: '',
-        title: 'Saas Landing Page',
-        site_name: 'Sass Landing Page',
+        title: 'Quiero Compu',
+        site_name: 'Quiero Compu',
         description:
-          'Saas landing pages design is very important in order to convert visitors into leads or customers [https://uikit.to/saas-landing-pages/]',
+          'Quiero Compu ofrece un servicio de recomendación y asesoramiento en la compra de laptops en Uruguay.',
         img: 'thumb.png',
         img_size: { width: '800px', height: '600px' },
         locale: 'en_US',
         twitter: '@silvesterwali',
-        twitter_card: 'Saas Landing Page',
-        theme_color: '#ffffff',
+        twitter_card: 'Quiero Compu',
+        theme_color: '#54bd95',
       },
     ],
   ],
